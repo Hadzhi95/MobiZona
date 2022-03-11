@@ -11,7 +11,6 @@ const ProductDetail = () => {
     const proid = useParams();
     const proDetail = DATA.filter(x=>x.id == proid.id)
     const product = proDetail[0];
-    console.log(product);
 
     // We need to store useDispatch in a variable
     const dispatch = useDispatch()
